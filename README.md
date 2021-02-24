@@ -19,7 +19,7 @@
 
 ![LineMap1.0示例](https://github.com/huzaizhou/CityMap/blob/main/image/LineMap1.0%20example.png)
 
-* LineMap 2.0版本可以为不同线路及其站点添加不同的颜色。例如：
+* LineMap 1.1版本可以为不同线路及其站点添加不同的颜色。例如：
 
 ![LineMap2.0示例](https://github.com/huzaizhou/CityMap/blob/main/image/LineMap1.1%20example.png)
 
