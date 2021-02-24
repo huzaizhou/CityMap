@@ -4,7 +4,7 @@
 
 * AdminMap(Boundary) 1.0绘制行政区域边界地图。例如：
 
-![边界图](https://img.imgdb.cn/item/603649c65f4313ce25361930.jpg)
+![边界图](https://github.com/huzaizhou/CityMap/blob/main/image/boundry%20example.png)
 
 * AdminMap(Color Block) 1.0绘制行政区域色块地图。例如：
 
