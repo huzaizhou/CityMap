@@ -41,7 +41,7 @@ def locations(dist):
     n += 1
     return list2
 
-fig = plt.figure(figsize=(8,8))
+fig = plt.figure(figsize=(10,10))
 ax = fig.add_subplot(1,1,1)
 def draw(dist):
     data = locations(dist)
