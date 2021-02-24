@@ -8,7 +8,7 @@
 
 * AdminMap(Color Block) 1.0绘制行政区域色块地图。例如：
 
-![色块图](https://img.imgdb.cn/item/603649d35f4313ce25363148.jpg)
+![色块图](https://github.com/huzaizhou/CityMap/blob/main/image/color%20block%20example.png)
 
 *使用方法为给draw函数传入行政区域编码列表参数，格式为draw([编码1, 编码2, 编码3, ……])。编码可在AMap_adcode_citycode.xlsx中查询。
 
