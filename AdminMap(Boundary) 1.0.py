@@ -41,8 +41,6 @@ def locations(dist):
     n += 1
     return list2
 
-fig = plt.figure(figsize=(10,10))
-ax = fig.add_subplot(1,1,1)
 def draw(dist):
     data = locations(dist)
     df = pd.DataFrame(data,columns=['name','geometry'])
@@ -50,10 +48,13 @@ def draw(dist):
     gdf.crs = 'EPSG:4326'
     gdf.plot(ax=ax,color='k')
 
-#示例
-draw([440100,440300,440400,440600,440700,441200,441300,441900,442000,810000,820000])
-plt.title('Guangdong-Hong Kong-Macau Great Bay Area')
-plt.show()
+if __name__  ==  '__main__':
+    fig = plt.figure(figsize=(10,10))
+    ax = fig.add_subplot(1,1,1)
+    #示例
+    draw([440100,440300,440400,440600,440700,441200,441300,441900,442000,810000,820000])
+    plt.title('Guangdong-Hong Kong-Macau Great Bay Area')
+    plt.show()
 
 
 

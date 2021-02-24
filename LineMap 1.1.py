@@ -32,8 +32,6 @@ def location(city,line):
     
     return linedata,stoplon,stoplat
 
-fig = plt.figure(figsize=(10,10))
-ax = fig.add_subplot(1,1,1)
 def draw(x):
     ldl = list()
     slon = list()
@@ -57,6 +55,9 @@ def draw(x):
     gdfl.plot(ax=ax,cmap=plt.cm.tab10)
     ax.scatter(slon,slat,c=color,cmap=plt.cm.tab10)
     plt.show()
-
-#示例
-draw([[440400,'B9路'],[440400,'G993路']])
+    
+if __name__ == '__main__':
+    fig = plt.figure(figsize=(10,10))
+    ax = fig.add_subplot(1,1,1)
+    #示例
+    draw([[440400,'B9路'],[440400,'G993路']])
