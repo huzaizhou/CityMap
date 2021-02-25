@@ -10,7 +10,9 @@
 
 ![色块图](https://github.com/huzaizhou/CityMap/blob/main/image/color%20block%20example.png)
 
-* 使用方法为给draw函数传入行政区域编码列表参数，格式为draw([编码1, 编码2, 编码3, ……])。行政区域编码可在AMap_adcode_citycode.xlsx中查询。
+* 使用方法为给draw函数传入行政区域编码列表参数，格式为
+  'draw([编码1, 编码2, 编码3, ……])'
+* 行政区域编码可在AMap_adcode_citycode.xlsx中查询。
 
 ## LineMap
 * LineMap程序用于绘制公交线路图，可绘制多个城市的多条线路，并标注站点。
